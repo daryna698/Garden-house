@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    background: #04141a;
+    font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.hud {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    max-width: 320px;
+    padding: 14px 16px;
+    color: #f4f1ea;
+    background: rgba(8, 18, 24, 0.55);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    user-select: none;
+}
+
+.hud h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.hud p {
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.hud button {
+    width: 100%;
+    padding: 9px 12px;
+    font-size: 13px;
+    color: #fff;
+    background: #2d6f8f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.hud button:hover {
+    background: #3a86ab;
+}
